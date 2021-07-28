@@ -1,489 +1,490 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
 
-	<meta charset="utf-8">
-	<!-- <base href="/"> -->
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
 
-	<title>
-		OptimizedHTML 5
-	</title>
-	<meta name="description" content="Startup HTML template OptimizedHTML 5">
+    <title>
+        OptimizedHTML 5
+    </title>
+    <meta name="description" content="Startup HTML template OptimizedHTML 5">
 
-	<meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width">
 
-	<link rel="icon" href="images/favicon.png">
-	<meta property="og:image" content="images/dist/preview.jpg">
+    <link rel="icon" href="images/favicon.png">
+    <meta property="og:image" content="images/dist/preview.jpg">
 
-	<link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
 
 </head>
 
 <body>
 
-	<header>
-		
-		<div class="header-menu">
-			<div class="wrapper-main">
-				<nav class="header-menu-root">
-					<div class="location">
-						<div class="location-icon">
-							<img src="../images/dist/location.svg" alt="location image">
-						</div>
-						<div class="location-name">
-							<a href="#">Киров</a>
-						</div>
-					</div>
-					<ul class="header-menu-items">
-						<li class="header-menu-item">
-							<a href="#">Физическим лицам</a>
-						</li>
-						<li class="header-menu-item">
-							<a href="#">Юридическим лицам</a>
-						</li>
-						<li class="header-menu-item">
-							<a href="#">Интернет-магазинам</a>
-						</li>
-						<li class="header-menu-item">
-							<a href="#">Франчайзинг</a>
-						</li>
-						<li class="header-menu-item">
-							<a href="#">О компании</a>
-						</li>
-						<li class="header-menu-item">
-							<a href="#">Заключить договор</a>
-						</li>
-						<li class="header-menu-item">
-							<a href="#">Подрядчикам</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</div>
+    <header>
 
-		<div class="menu">
-			<div class="wrapper-main">
-				<div class="menu-root">
-					<a href="#" class="logo">
-						<img src="../images/dist/logo.jpg" alt="logo">
-					</a>
-
-					<ul class="menu-items">
-						<li class="menu-item">
-							<a href="#">Отследить</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Рассчитать</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Тарифы</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">CDEK ID</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Посылочка</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Сервисы</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Постаматы</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Офисы</a>
-						</li>
-					</ul>
-
-					<div class="button-sign_in">
-						<a href="#">Войти</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</header>
-
-<main>
-    <h1 class="invisible">СДЕК</h1>
-    <section class="s-attention">
-        <div class="wrapper-main">
-            <h2 class="invisible">Внимание, важная информация!</h2>
-            <div class="attention">
-                <div class="attention-icon">
-                    <img src="./images/dist/attention.png" alt="attention icon">
-                </div>
-                <div class="attention-content">
-                    <div class="attention-content-item">
-                        <a href="#">СДЕК информирует о мошенниках</a>
-                    </div>
-                    <div class="attention-content-item">
-                        <a href="#">СДЕК дезинфицирует офисы каждые 2 часа</a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="s-video">
-        <div class="wrapper-big">
-            <video class="video" width="1420px" height="600px" autoplay loop>
-                <source src="video/sdek-video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-                Тег video не поддерживается вашим браузером.
-            </video>
-        </div>
-    </section>
-
-    <section class="s-services">
-        <div class="wrapper-main">
-            <div class="services">
-                <div class="servises-tabs">
-                    <div class="servises-tabs-item">
-                        <button>Расчитать стоимость</button>
-                    </div>
-                    <div class="servises-tabs-item">
-                        <button>Вызвать курьера</button>
-                    </div>
-                    <div class="servises-tabs-item">
-                        <button>Отследить заказ</button>
-                    </div>
-                    <div class="servises-tabs-item tab--active">
-                        <button>Оплата услуг онлайн</button>
-                    </div>
-                </div>
-
-                <div class="services-content">
-                    <div class="content-coast invisible">
-                        1
-                    </div>
-                    <div class="content-courier">
-                        <form action="post" id="form-courier" class="form-courier">
-                            <div class="courier-cols">
-                                <div class="begin">
-                                    <input type="text" placeholder="Откуда" size="30">
-                                    <ul class="begin-list">
-                                        <li class="begin-item"><a href="#">Киров</a></li>
-                                        <li class="begin-item"><a href="#">Москва</a></li>
-                                        <li class="begin-item"><a href="#">Санкт-Петербург</a></li>
-                                        <li class="begin-item"><a href="#">Новосибирск</a></li>
-                                    </ul>
-                                </div>
-                                <div class="reverse">
-                                    <button class="change-places"></button>
-                                </div>
-                                <div class="finish">
-                                    <input type="text" placeholder="Куда" size="30">
-                                    <ul class="finish-list">
-                                        <li class="finish-item"><a href="#">Киров</a></li>
-                                        <li class="finish-item"><a href="#">Москва</a></li>
-                                        <li class="finish-item"><a href="#">Санкт-Петербург</a></li>
-                                        <li class="finish-item"><a href="#">Новосибирск</a></li>
-                                    </ul>
-                                </div>
-                                <a href="#" class="courier-button">Вызвать курьера</a>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="contnent-trecking invisible">
-                        <form action="post" id="form-trecking" class="form-trecking">
-                            <input type="text" placeholder="Укажите номер заказа" size="40">
-                            <a href="#">Отследить заказ</a>
-                        </form>
-                    </div>
-                    <div class="contnent-payment invisible">
-                        <a href="#">Банковские карты</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="s-banner">
-
-    </section>
-
-    <section class="s-ad">
-
-    </section>
-
-    <section class="s-about">
-        <div class="about">
+        <div class="header-menu">
             <div class="wrapper-main">
-                <h2 class="invisible">Информация о компании</h2>
-                <div class="about-rows">
-                    <div class="about-numbers">
-                        <div class="numbers-item">
-                            <span class="number">
-                                2000
-                            </span>
-                            <span class="number-description">
-                                год основания компании
-                            </span>
+                <nav class="header-menu-root">
+                    <div class="location">
+                        <div class="location-icon">
+                            <img src="./images/dist/location.svg" alt="location image">
                         </div>
-                        <div class="numbers-item">
-                            <span class="number">
-                                6 000+
-                            </span>
-                            <span class="number-description">
-                                курькров
-                            </span>
-                        </div>
-                        <div class="numbers-item">
-                            <span class="number">
-                                36 000
-                            </span>
-                            <span class="number-description">
-                                населенных пунктов по России
-                            </span>
-                        </div>
-                        <div class="numbers-item">
-                            <span class="number">
-                                150 000+
-                            </span>
-                            <span class="number-description">
-                                отправлений в день
-                            </span>
+                        <div class="location-name">
+                            <a href="#">Киров</a>
                         </div>
                     </div>
-
-                    <div class="about-description">
-                        Мы оказываем людям и компаниям спектр услуг своевременной и гарантированной доставки, постоянно
-                        повышая уровень сервиса, внедряя новые технологии, эффективно используя внутренний потенциал и
-                        внешние ресурсы.
-                    </div>
-
-                    <div class="about-button">
-                        <a href="#">Узнать больше</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="s-offices">
-        <div class="wrapper-main">
-            <h2 class="invisible">Представительства СДЕК</h2>
-            <div class="offices">
-                <div class="offices-card">
-                    <div class="offices-title">
-                        В вашем городе
-                        <br>
-                        <span>14</span> офисов
-                    </div>
-                    <div class="offices-button">
-                        <a href="#">Посмотреть все</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="s-mobile">
-        <div class="wrapper-main">
-            <div class="mobile">
-                <div class="mobile-rows">
-                    <div class="mobile-title">
-                        <h2>Мобильное приложение</h2>
-                    </div>
-                    <div class="mobile-description">
-                        Введите свой номер телефона и получите SMS со ссылкой на приложение
-                    </div>
-                    <div class="mobile-data">
-                        <div class="mobile-number-extension">
-                            <input type="phone" name="extension-phone" id="extension-phone" value="+7" size="4">
-                        </div>
-                        <div class="mobile-number-main">
-                            <input type="phone" name="main-phone" id="main-phone" size="30">
-                        </div>
-                        <div class="mobile-button-get">
-                            <a href="#">Получить</a>
-                        </div>
-                    </div>
-                    <p>Или перейдите по ссылке</p>
-                    <div class="mobile-apps">
-                        <a href="#">
-                            <img src="./images/dist/appstore.png" alt="Ссылка на приложение в App Store">
-                        </a>
-                        <a href="#">
-                            <img src="./images/dist/google_play.png" alt="Ссылка на приложение в Google Play">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="s-news">
-        <div class="wrapper-main">
-            <div class="news-title">
-                <h2>Новости</h2>
-                <a href="#">Все новости</a>
-            </div>
-            <div class="news-cards">
-                <div class="news-cards-item">
-                    <a href="#">
-                        <h3>Открытие офиса в г.Доброе, Крым</h3>
-                        <time datetime="2021-07-28">28 июля 2021</time>
-                    </a>
-                </div>
-                <div class="news-cards-item">
-                    <a href="#">
-                        <h3>Открытие офиса в г.Электросталь</h3>
-                        <time datetime="2021-07-28">28 июля 2021</time>
-                    </a>
-                </div>
-                <div class="news-cards-item">
-                    <a href="#">
-                        <h3>Открытие офиса в г.Москва</h3>
-                        <time datetime="2021-07-28">28 июля 2021</time>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-</main>
-
-<footer>
-
-    <div class="footer">
-        <h2 class="invisible">Нижнее меню</h2>
-        <div class="wrapper-main">
-            <nav class="footer-nav-main">
-                <div class="person">
-                    <h3>Физическим лицам</h3>
-                    <div class="person-col">
-                        <ul class="person-items">
-                            <li class="person-item"><a href="#">Отследить</a></li>
-                            <li class="person-item"><a href="#">Рассчитать</a></li>
-                            <li class="person-item"><a href="#">Тарифы</a></li>
-                            <li class="person-item"><a href="#">CDEK ID</a></li>
-                        </ul>
-                        <ul class="person-items">
-                            <li class="person-item"><a href="#">Сервисы</a></li>
-                            <li class="person-item"><a href="#">Постаматы</a></li>
-                            <li class="person-item"><a href="#">Посылочка</a></li>
-                            <li class="person-item"><a href="#">Офисы</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="additional">
-                    <h3>Дополнительно</h3>
-                    <ul class="additional-items">
-                        <li class="additional-item"><a href="#">Тендеры</a></li>
-                        <li class="additional-item"><a href="#">Контакты</a></li>
-                        <li class="additional-item"><a href="#">Пресс-центр</a></li>
-                        <li class="additional-item"><a href="#">Заключить договор</a></li>
-                        <li class="additional-item"><a href="#">Онлайн-оплата</a></li>
-                        <li class="additional-item"><a href="#">Карьера</a></li>
-                        <li class="additional-item"><a href="#">Инвесторам</a></li>
-                        <li class="additional-item"><a href="#">Справка</a></li>
-                        <li class="additional-item"><a href="#">Результаты СОУТ</a></li>
-                        <li class="additional-item"><a href="#">Благотворительность</a></li>
+                    <ul class="header-menu-items">
+                        <li class="header-menu-item">
+                            <a href="#">Физическим лицам</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#">Юридическим лицам</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#">Интернет-магазинам</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#">Франчайзинг</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#">О компании</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#">Заключить договор</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#">Подрядчикам</a>
+                        </li>
                     </ul>
-                </div>
-                <div class="contacts">
-                    <div class="searsh">
-                        <input type="text" placeholder="Поиск" size="40">
-                    </div>
-                    <div class="contact">
-                        <h3>Онлайн звонок</h3>
-                        <p>+7(833)249-05-04</p>
-                        <a href="#">Заказать звонок</a>
-                        <br>
-                        <a href="#">Обратная связь</a>
-                    </div>
-                </div>
-            </nav>
-
-            <div class="details">
-                <details>
-                    <summary>
-                        Международные сайт СДЕК
-                    </summary>
-                    <nav class="countries">
-                        <ul class="countries-list">
-                            <li class="countries-item"><a href="#">США</a></li>
-                            <li class="countries-item"><a href="#">Китай</a></li>
-                            <li class="countries-item"><a href="#">Великобритания</a></li>
-                            <li class="countries-item"><a href="#">Германия</a></li>
-                            <li class="countries-item"><a href="#">Турция</a></li>
-                            <li class="countries-item"><a href="#">Южная Корея</a></li>
-                            <li class="countries-item"><a href="#">Узбекистан</a></li>
-                            <li class="countries-item"><a href="#">ОАЭ</a></li>
-                            <li class="countries-item"><a href="#">Польша</a></li>
-                            <li class="countries-item"><a href="#">Азербайджан</a></li>
-                            <li class="countries-item"><a href="#">Тайланд</a></li>
-                            <li class="countries-item"><a href="#">Казахстан</a></li>
-                            <li class="countries-item"><a href="#">Киргизия</a></li>
-                            <li class="countries-item"><a href="#">Белоруссия</a></li>
-                            <li class="countries-item"><a href="#">Армения</a></li>
-                            <li class="countries-item"><a href="#">Украина</a></li>
-                            <li class="countries-item"><a href="#">Болгария</a></li>
-                            <li class="countries-item"><a href="#">Вьетнам</a></li>
-                            <li class="countries-item"><a href="#">Израиль</a></li>
-                            <li class="countries-item"><a href="#">Италия</a></li>
-                            <li class="countries-item"><a href="#">Финляндия</a></li>
-                            <li class="countries-item"><a href="#">Грузия</a></li>
-                            <li class="countries-item"><a href="#">Международный сайт</a></li>
-                            <li class="countries-item"><a href="#"></a></li>
-                            <li class="countries-item"><a href="#"></a></li>
-                            <li class="countries-item"><a href="#"></a></li>
-                        </ul>
-                    </nav>
-                </details>
-            </div>
-
-            <nav class="nav-social">
-                <div class="network">
-                    <div class="network-social">
-                        <div class="network-social-title">
-                            <h3>Мы в соцсетях:</h3>
-                        </div>
-                        <ul class="network-social-list">
-                            <li class="network-social-item"><a href="#">VKontakte</a></li>
-                            <li class="network-social-item"><a href="#">Facebook</a></li>
-                            <li class="network-social-item"><a href="#">Instagram</a></li>
-                        </ul>
-                    </div>
-                    <div class="network-apps">
-                        <div class="network-apps-title">
-                            <h3>Скачать приложение:</h3>
-                        </div>
-                        <ul class="network-apps list">
-                            <li class="network-apps-item"><a href="#">App Srore</a></li>
-                            <li class="network-apps-item"><a href="#">Google Play</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="offer">
-                    <a href="#">Оферта</a>
-                </div>
-                <div class="safety">
-                    <a href="#">Политика безопасности</a>
-                </div>
-            </nav>
-
-            <nav class="nav-app">
-                Приложения
-            </nav>
-
-            <div class="copyright">
-                <span>©2000 — 2021, Курьерская компания СДЭК</span>
-                <a href="#">Адрес раскрытия информации</a>
-                <span>Дизайн сайта <a href="#">Uprock</a></span>
+                </nav>
             </div>
         </div>
-    </div>
+
+        <div class="menu">
+            <div class="wrapper-main">
+                <div class="menu-root">
+                    <a href="#" class="logo">
+                        <img src="./images/dist/logo.jpg" alt="logo">
+                    </a>
+
+                    <ul class="menu-items">
+                        <li class="menu-item">
+                            <a href="#">Отследить</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Рассчитать</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Тарифы</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">CDEK ID</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Посылочка</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Сервисы</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Постаматы</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Офисы</a>
+                        </li>
+                    </ul>
+
+                    <div class="button-sign_in">
+                        <a href="#">Войти</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <h1 class="invisible">СДЕК</h1>
+        <section class="s-attention">
+            <div class="wrapper-main">
+                <h2 class="invisible">Внимание, важная информация!</h2>
+                <div class="attention">
+                    <div class="attention-icon">
+                        <img src="./images/dist/attention.png" alt="attention icon">
+                    </div>
+                    <div class="attention-content">
+                        <div class="attention-content-item">
+                            <a href="#">СДЕК информирует о мошенниках</a>
+                        </div>
+                        <div class="attention-content-item">
+                            <a href="#">СДЕК дезинфицирует офисы каждые 2 часа</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-video">
+            <div class="wrapper-big">
+                <video class="video" width="1420px" height="600px" autoplay loop>
+                    <source src="./video/sdek-video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    Тег video не поддерживается вашим браузером.
+                </video>
+            </div>
+        </section>
+
+        <section class="s-services">
+            <div class="wrapper-main">
+                <div class="services">
+                    <div class="servises-tabs">
+                        <div class="servises-tabs-item">
+                            <button>Расчитать стоимость</button>
+                        </div>
+                        <div class="servises-tabs-item">
+                            <button>Вызвать курьера</button>
+                        </div>
+                        <div class="servises-tabs-item">
+                            <button>Отследить заказ</button>
+                        </div>
+                        <div class="servises-tabs-item tab--active">
+                            <button>Оплата услуг онлайн</button>
+                        </div>
+                    </div>
+
+                    <div class="services-content">
+                        <div class="content-coast invisible">
+                            1
+                        </div>
+                        <div class="content-courier">
+                            <form action="post" id="form-courier" class="form-courier">
+                                <div class="courier-cols">
+                                    <div class="begin">
+                                        <input type="text" placeholder="Откуда" size="30">
+                                        <ul class="begin-list">
+                                            <li class="begin-item"><a href="#">Киров</a></li>
+                                            <li class="begin-item"><a href="#">Москва</a></li>
+                                            <li class="begin-item"><a href="#">Санкт-Петербург</a></li>
+                                            <li class="begin-item"><a href="#">Новосибирск</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="reverse">
+                                        <button class="change-places"></button>
+                                    </div>
+                                    <div class="finish">
+                                        <input type="text" placeholder="Куда" size="30">
+                                        <ul class="finish-list">
+                                            <li class="finish-item"><a href="#">Киров</a></li>
+                                            <li class="finish-item"><a href="#">Москва</a></li>
+                                            <li class="finish-item"><a href="#">Санкт-Петербург</a></li>
+                                            <li class="finish-item"><a href="#">Новосибирск</a></li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="courier-button">Вызвать курьера</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="contnent-trecking invisible">
+                            <form action="post" id="form-trecking" class="form-trecking">
+                                <input type="text" placeholder="Укажите номер заказа" size="40">
+                                <a href="#">Отследить заказ</a>
+                            </form>
+                        </div>
+                        <div class="contnent-payment invisible">
+                            <a href="#">Банковские карты</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-banner">
+
+        </section>
+
+        <section class="s-ad">
+
+        </section>
+
+        <section class="s-about">
+            <div class="about">
+                <div class="wrapper-main">
+                    <h2 class="invisible">Информация о компании</h2>
+                    <div class="about-rows">
+                        <div class="about-numbers">
+                            <div class="numbers-item">
+                                <span class="number">
+                                    2000
+                                </span>
+                                <span class="number-description">
+                                    год основания компании
+                                </span>
+                            </div>
+                            <div class="numbers-item">
+                                <span class="number">
+                                    6 000+
+                                </span>
+                                <span class="number-description">
+                                    курькров
+                                </span>
+                            </div>
+                            <div class="numbers-item">
+                                <span class="number">
+                                    36 000
+                                </span>
+                                <span class="number-description">
+                                    населенных пунктов по России
+                                </span>
+                            </div>
+                            <div class="numbers-item">
+                                <span class="number">
+                                    150 000+
+                                </span>
+                                <span class="number-description">
+                                    отправлений в день
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="about-description">
+                            Мы оказываем людям и компаниям спектр услуг своевременной и гарантированной доставки,
+                            постоянно
+                            повышая уровень сервиса, внедряя новые технологии, эффективно используя внутренний потенциал
+                            и
+                            внешние ресурсы.
+                        </div>
+
+                        <div class="about-button">
+                            <a href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-offices">
+            <div class="wrapper-main">
+                <h2 class="invisible">Представительства СДЕК</h2>
+                <div class="offices">
+                    <div class="offices-card">
+                        <div class="offices-title">
+                            В вашем городе
+                            <br>
+                            <span>14</span> офисов
+                        </div>
+                        <div class="offices-button">
+                            <a href="#">Посмотреть все</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-mobile">
+            <div class="wrapper-main">
+                <div class="mobile">
+                    <div class="mobile-rows">
+                        <div class="mobile-title">
+                            <h2>Мобильное приложение</h2>
+                        </div>
+                        <div class="mobile-description">
+                            Введите свой номер телефона и получите SMS со ссылкой на приложение
+                        </div>
+                        <div class="mobile-data">
+                            <div class="mobile-number-extension">
+                                <input type="phone" name="extension-phone" id="extension-phone" value="+7" size="4">
+                            </div>
+                            <div class="mobile-number-main">
+                                <input type="phone" name="main-phone" id="main-phone" size="30">
+                            </div>
+                            <div class="mobile-button-get">
+                                <a href="#">Получить</a>
+                            </div>
+                        </div>
+                        <p>Или перейдите по ссылке</p>
+                        <div class="mobile-apps">
+                            <a href="#">
+                                <img src="./images/dist/appstore.png" alt="Ссылка на приложение в App Store">
+                            </a>
+                            <a href="#">
+                                <img src="./images/dist/google_play.png" alt="Ссылка на приложение в Google Play">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s-news">
+            <div class="wrapper-main">
+                <div class="news-title">
+                    <h2>Новости</h2>
+                    <a href="#">Все новости</a>
+                </div>
+                <div class="news-cards">
+                    <div class="news-cards-item">
+                        <a href="#">
+                            <h3>Открытие офиса в г.Доброе, Крым</h3>
+                            <time datetime="2021-07-28">28 июля 2021</time>
+                        </a>
+                    </div>
+                    <div class="news-cards-item">
+                        <a href="#">
+                            <h3>Открытие офиса в г.Электросталь</h3>
+                            <time datetime="2021-07-28">28 июля 2021</time>
+                        </a>
+                    </div>
+                    <div class="news-cards-item">
+                        <a href="#">
+                            <h3>Открытие офиса в г.Москва</h3>
+                            <time datetime="2021-07-28">28 июля 2021</time>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="footer">
+            <h2 class="invisible">Нижнее меню</h2>
+            <div class="wrapper-main">
+                <nav class="footer-nav-main">
+                    <div class="person">
+                        <h3>Физическим лицам</h3>
+                        <div class="person-col">
+                            <ul class="person-items">
+                                <li class="person-item"><a href="#">Отследить</a></li>
+                                <li class="person-item"><a href="#">Рассчитать</a></li>
+                                <li class="person-item"><a href="#">Тарифы</a></li>
+                                <li class="person-item"><a href="#">CDEK ID</a></li>
+                            </ul>
+                            <ul class="person-items">
+                                <li class="person-item"><a href="#">Сервисы</a></li>
+                                <li class="person-item"><a href="#">Постаматы</a></li>
+                                <li class="person-item"><a href="#">Посылочка</a></li>
+                                <li class="person-item"><a href="#">Офисы</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="additional">
+                        <h3>Дополнительно</h3>
+                        <ul class="additional-items">
+                            <li class="additional-item"><a href="#">Тендеры</a></li>
+                            <li class="additional-item"><a href="#">Контакты</a></li>
+                            <li class="additional-item"><a href="#">Пресс-центр</a></li>
+                            <li class="additional-item"><a href="#">Заключить договор</a></li>
+                            <li class="additional-item"><a href="#">Онлайн-оплата</a></li>
+                            <li class="additional-item"><a href="#">Карьера</a></li>
+                            <li class="additional-item"><a href="#">Инвесторам</a></li>
+                            <li class="additional-item"><a href="#">Справка</a></li>
+                            <li class="additional-item"><a href="#">Результаты СОУТ</a></li>
+                            <li class="additional-item"><a href="#">Благотворительность</a></li>
+                        </ul>
+                    </div>
+                    <div class="contacts">
+                        <div class="searsh">
+                            <input type="text" placeholder="Поиск" size="40">
+                        </div>
+                        <div class="contact">
+                            <h3>Онлайн звонок</h3>
+                            <p>+7(833)249-05-04</p>
+                            <a href="#">Заказать звонок</a>
+                            <br>
+                            <a href="#">Обратная связь</a>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="details">
+                    <details>
+                        <summary>
+                            Международные сайт СДЕК
+                        </summary>
+                        <nav class="countries">
+                            <ul class="countries-list">
+                                <li class="countries-item"><a href="#">США</a></li>
+                                <li class="countries-item"><a href="#">Китай</a></li>
+                                <li class="countries-item"><a href="#">Великобритания</a></li>
+                                <li class="countries-item"><a href="#">Германия</a></li>
+                                <li class="countries-item"><a href="#">Турция</a></li>
+                                <li class="countries-item"><a href="#">Южная Корея</a></li>
+                                <li class="countries-item"><a href="#">Узбекистан</a></li>
+                                <li class="countries-item"><a href="#">ОАЭ</a></li>
+                                <li class="countries-item"><a href="#">Польша</a></li>
+                                <li class="countries-item"><a href="#">Азербайджан</a></li>
+                                <li class="countries-item"><a href="#">Тайланд</a></li>
+                                <li class="countries-item"><a href="#">Казахстан</a></li>
+                                <li class="countries-item"><a href="#">Киргизия</a></li>
+                                <li class="countries-item"><a href="#">Белоруссия</a></li>
+                                <li class="countries-item"><a href="#">Армения</a></li>
+                                <li class="countries-item"><a href="#">Украина</a></li>
+                                <li class="countries-item"><a href="#">Болгария</a></li>
+                                <li class="countries-item"><a href="#">Вьетнам</a></li>
+                                <li class="countries-item"><a href="#">Израиль</a></li>
+                                <li class="countries-item"><a href="#">Италия</a></li>
+                                <li class="countries-item"><a href="#">Финляндия</a></li>
+                                <li class="countries-item"><a href="#">Грузия</a></li>
+                                <li class="countries-item"><a href="#">Международный сайт</a></li>
+                                <li class="countries-item"><a href="#"></a></li>
+                                <li class="countries-item"><a href="#"></a></li>
+                                <li class="countries-item"><a href="#"></a></li>
+                            </ul>
+                        </nav>
+                    </details>
+                </div>
+
+                <nav class="nav-social">
+                    <div class="network">
+                        <div class="network-social">
+                            <div class="network-social-title">
+                                <h3>Мы в соцсетях:</h3>
+                            </div>
+                            <ul class="network-social-list">
+                                <li class="network-social-item"><a href="#">VKontakte</a></li>
+                                <li class="network-social-item"><a href="#">Facebook</a></li>
+                                <li class="network-social-item"><a href="#">Instagram</a></li>
+                            </ul>
+                        </div>
+                        <div class="network-apps">
+                            <div class="network-apps-title">
+                                <h3>Скачать приложение:</h3>
+                            </div>
+                            <ul class="network-apps list">
+                                <li class="network-apps-item"><a href="#">App Srore</a></li>
+                                <li class="network-apps-item"><a href="#">Google Play</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="offer">
+                        <a href="#">Оферта</a>
+                    </div>
+                    <div class="safety">
+                        <a href="#">Политика безопасности</a>
+                    </div>
+                </nav>
+
+                <nav class="nav-app">
+                    Приложения
+                </nav>
+
+                <div class="copyright">
+                    <span>©2000 — 2021, Курьерская компания СДЭК</span>
+                    <a href="#">Адрес раскрытия информации</a>
+                    <span>Дизайн сайта <a href="#">Uprock</a></span>
+                </div>
+            </div>
+        </div>
 
 
-</footer>
+    </footer>
 
 
-<script src="js/libs.min.js"></script>
-<script src="js/app.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/app.min.js"></script>
 
 </body>
 
